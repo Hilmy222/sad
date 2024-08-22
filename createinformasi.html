@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="src/output.css" rel="stylesheet">
+</head>
+
+<body class="font-sans">
+    <div class="bg-slate-50 h-screen">
+        <div class="bg-white rounded-b-2xl h-24 shadow-xl">
+            <div class="flex px-6 pt-[52px]">
+                <img src="assets/icon/back.svg" alt="" class="w-6 h-6">
+                <h1 class="mx-auto font-semibold">Tambah Informasi</h1>
+            </div>
+        </div>
+        <div class="p-5">
+            <div id="Kode Produksi">
+            <div class="flex gap-1">
+                <label for="">Kode Produk</label>
+                <img src="assets/icon/star.svg" alt="" class="pb-2">
+            </div>
+            <div class="mt-2">
+                <input type="text" class="border border-gray-300 w-full py-6 p-4 rounded-2xl" placeholder="Kode Produk">
+            </div>
+            </div>
+            <div id="Nama Produksi" class="mt-5">
+                <div class="flex gap-1">
+                    <label for="">Nama Produk</label>
+                    <img src="assets/icon/star.svg" alt="" class="pb-2">
+                </div>
+                <div class="mt-2">
+                    <input type="text" class="border border-gray-300 w-full py-6 p-4 rounded-2xl" placeholder="Nama Produk">
+                </div>
+            </div>
+            <div id="Brand Produksi" class="mt-5">
+                <div class="flex gap-1">
+                    <label for="">Brand Produk</label>
+                    <img src="assets/icon/star.svg" alt="" class="pb-2">
+                </div>
+                <div class="mt-2">
+                    <input type="text" class="border border-gray-300 w-full py-6 p-4 rounded-2xl" placeholder="Brand Produk">
+                </div>
+            </div>
+            <div id="Kode Produksi" class="mt-5">
+                <div class="flex gap-1">
+                    <label for="">Informasi Produk</label>
+                    <img src="assets/icon/star.svg" alt="" class="pb-2">
+                </div>
+                <div class="mt-2 space-y-3">
+                    <select id="" class="border border-gray-300 w-full py-6 p-4 rounded-2xl">
+                        <option class="" >Informasi Halal</option>  
+                        <option value="">Memiliki Label Halal</option>
+                        <option value="">Tidak Memiliki Label Halal</option>
+                      </select>
+                      <select id="" class="border border-gray-300 w-full py-6 p-4 rounded-2xl">
+                        <option class="text-gray-400" >Informasi BPOM</option>  
+                        <option value="">Teruji BPOM</option>
+                        <option value="">Tidak Teruji BPOM</option>
+                      </select>
+                </div>
+            </div>
+            <div id="Deskripsi Produk" class="mt-5">
+                <div class="flex gap-1">
+                    <label for="">Deskripsi Produk</label>
+                    <img src="assets/icon/star.svg" alt="" class="pb-2">
+                </div>
+                <div class="mt-2">
+                    <textarea class="border border-gray-300 w-full pb-16 p-4 rounded-2xl" placeholder="Tuliskan apa yang kamu ketahui tentang produk ini"></textarea>
+                </div>
+            </div>
+            <button class="rounded-full py-5 bg-blue-400 w-full mt-7 text-white font-semibold">Tambah Informasi</button>
+        </div>
+    </div>
+    <script src="./node_modules/preline/dist/preline.js"></script>
+</body>
+
+</html>
